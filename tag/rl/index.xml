@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RL | Shreyas Chaudhari</title>
+    <link>https://shreyasc-13.github.io/tag/rl/</link>
+      <atom:link href="https://shreyasc-13.github.io/tag/rl/index.xml" rel="self" type="application/rss+xml" />
+    <description>RL</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 10 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://shreyasc-13.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>RL</title>
+      <link>https://shreyasc-13.github.io/tag/rl/</link>
+    </image>
+    
+    <item>
+      <title>Off-Dynamics Reinforcement Learning</title>
+      <link>https://shreyasc-13.github.io/project/odrl/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://shreyasc-13.github.io/project/odrl/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tackled the problem of domain transfer in reinforcement learning with a novel approach that shapes the reward function of the source domain&lt;/li&gt;
+&lt;li&gt;The method learns auxiallry classifiers with little modification to RL algorithm instead of explicitly modeling dynamics&lt;/li&gt;
+&lt;li&gt;Developed code for empirical benchmarking of the method on robotics tasks with simulators like MuJoCo and PyBullet&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Off Policy Meta-Reinforcement Learning</title>
+      <link>https://shreyasc-13.github.io/project/pgm_meta_rl/</link>
+      <pubDate>Tue, 12 May 2020 00:00:00 +0000</pubDate>
+      <guid>https://shreyasc-13.github.io/project/pgm_meta_rl/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Our team explored off-policy algorithms for meta-reinforcement learning, benchmarking them on meta-world&lt;/li&gt;
+&lt;li&gt;The two main approaches were based on used latent context variables or off-policy MAML style gradient updates&lt;/li&gt;
+&lt;li&gt;Developed code to emprically test these approaches using rlkit, with results and observations being outlined in the report&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Second-Order Methods for Policy Search in Reinforcement Learning</title>
+      <link>https://shreyasc-13.github.io/project/second_order_rl/</link>
+      <pubDate>Sat, 11 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://shreyasc-13.github.io/project/second_order_rl/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Wrote thesis work aimed at improving the convergence rate and theoretical guarantees of policy search methods&lt;/li&gt;
+&lt;li&gt;Evaluated second-order methods like Newton method and approximations motivated by natural gradient information&lt;/li&gt;
+&lt;li&gt;Empirically compared algorithms using exact Hessian and its approximations motivated by Fisher information&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Risk-Sensitive Reinforcement Learning: A Comparative Analysis</title>
+      <link>https://shreyasc-13.github.io/project/risk_rl/</link>
+      <pubDate>Sun, 11 Nov 2018 00:00:00 +0000</pubDate>
+      <guid>https://shreyasc-13.github.io/project/risk_rl/</guid>
+      <description>&lt;h2 id=&#34;summary&#34;&gt;Summary&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Empirically analysed the existing methods for risk sensitive RL various spanning risk measures like variance bounds and probabilty
+of risk bounds; incorporating them in algorithms like Q learning, SARSA and their risk-sensitive variants&lt;/li&gt;
+&lt;li&gt;Bench-marking on a Gridworld with error states, introduced a new risk measure that maximizes distance from error states per step&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
